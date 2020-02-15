@@ -22,6 +22,7 @@ public class StoreService {
 
 	public Optional<Company> getStoreId(int id) {
 		Optional<Company> optional = storeRepository.findById(id);
+		
 		return optional;
 	}
 
